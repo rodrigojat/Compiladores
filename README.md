@@ -6,20 +6,20 @@ Testes feitos nos seguintes SOs: Windows 10 e Ubuntu 18.02
 ## To do
 
 * Primeiro você deve instalar o Lex, o Yacc e o Make no seu SO (Windows e Ubuntu).
-* O código para testes está no arquivo "entrada.mrng"
+* O código para testes está no arquivo "entrada.nossa"
 
 ### Como compilar e executar no Windows
 
 * Abrir o cmd na pasta dos arquivos
 * Executar os seguintes passos
 * make -f Makefile
-* .\morning entrada.mrng output.c
+* .\Local-Do-Arquivo entrada.nossa output.c
 * gcc output.c
 * .\a
 
 ### Como compilar e executar no Ubuntu
 
-* Opção 1) make && ./morning entrada.mrng output.c  && gcc output.c && ./a.out
+* Opção 1) make && ./Local-Do-Arquivo entrada.nossa output.c  && gcc output.c && ./a.out
 * Opção 2) ./executavel.sh (executar via terminal)
 
 ### Exemplo de teste do código de exemplo
